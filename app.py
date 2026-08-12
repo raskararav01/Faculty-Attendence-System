@@ -15,8 +15,8 @@ app.secret_key = "attendance_secret"
 def get_db():
     return mysql.connector.connect(
         host="localhost",
-        user="root",
-        password="Varun@123",
+        user="",
+        password="",
         database="faculty_attendance"
     )
 
